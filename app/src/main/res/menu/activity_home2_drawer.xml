@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+        android:id="@+id/update_infos"
+        android:icon="@drawable/update_32"
+        android:title="Màj. votre infos" />
+        <item
+            android:id="@+id/check_balance"
+            android:icon="@drawable/balance_32"
+            android:title="Consulté solde" />
+        <item
+            android:id="@+id/unsubscribe"
+            android:icon="@drawable/unsubscribe_32"
+            android:title="Désinscrit" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout_32"
+            android:title="Déconnecter" />
+        <item
+            android:id="@+id/exit"
+            android:icon="@drawable/exit_32"
+            android:title="Quitter" />
+    </group>
+
+</menu>
